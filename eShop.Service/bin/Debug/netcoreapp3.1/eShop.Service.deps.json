@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "eShop.Service/1.0.0": {
+        "dependencies": {
+          "eShop.Entities": "1.0.0",
+          "eShop.View": "1.0.0"
+        },
+        "runtime": {
+          "eShop.Service.dll": {}
+        }
+      },
+      "eShop.Entities/1.0.0": {
+        "runtime": {
+          "eShop.Entities.dll": {}
+        }
+      },
+      "eShop.View/1.0.0": {
+        "runtime": {
+          "eShop.View.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eShop.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eShop.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eShop.View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\bin\Debug\netcoreapp3.1\eShop.View.deps.json
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\bin\Debug\netcoreapp3.1\eShop.View.dll
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\bin\Debug\netcoreapp3.1\eShop.View.pdb
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.AssemblyInfoInputs.cache
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.AssemblyInfo.cs
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.dll
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.pdb
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\obj\Debug\netcoreapp3.1\eShop.Service.csprojAssemblyReference.cache
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\obj\Debug\netcoreapp3.1\eShop.Service.AssemblyInfoInputs.cache
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\obj\Debug\netcoreapp3.1\eShop.Service.AssemblyInfo.cs
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.Service.deps.json
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.Service.dll
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.Service.pdb
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.Entities.dll
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.View.dll
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.Entities.pdb
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\bin\Debug\netcoreapp3.1\eShop.View.pdb
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\obj\Debug\netcoreapp3.1\eShop.Service.csproj.CopyComplete
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\obj\Debug\netcoreapp3.1\eShop.Service.dll
+C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Service\obj\Debug\netcoreapp3.1\eShop.Service.pdb

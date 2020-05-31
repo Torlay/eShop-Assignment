@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "eShop.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/eShop.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.Entities.dll": {}
+        }
+      },
+      "eShop.View/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/eShop.View.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.View.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eShop.Entities/1.0.0": {
+      "type": "project",
+      "path": "../eShop.Entities/eShop.Entities.csproj",
+      "msbuildProject": "../eShop.Entities/eShop.Entities.csproj"
+    },
+    "eShop.View/1.0.0": {
+      "type": "project",
+      "path": "../eShop.View/eShop.View.csproj",
+      "msbuildProject": "../eShop.View/eShop.View.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "eShop.Entities >= 1.0.0",
+      "eShop.View >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\raphael.torlay\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj",
+      "projectName": "eShop.Service",
+      "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj",
+      "packagesPath": "C:\\Users\\raphael.torlay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\raphael.torlay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.1.101.2:8081/artifactory/api/nuget/NuGet-virtual": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj": {
+              "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj"
+            },
+            "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj": {
+              "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
