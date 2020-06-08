@@ -30,7 +30,8 @@ namespace eShop.Service
             var factory = new Customer.Factory();
             var newCustomer = factory.Create(name, email);
 
-            //persist new customer
+            _repo = new CustomerRepository();
+            _repo.Insert(newCustomer);
 
             return true;
         }

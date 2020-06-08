@@ -15,7 +15,7 @@ namespace eShop.Service.Repository
             _connection = null;
         }
 
-        public List<T> Select(string query) 
+        internal List<T> Select(string query) 
         {
             List<T> result = new List<T>();
 
@@ -35,7 +35,7 @@ namespace eShop.Service.Repository
             return result;
         }
 
-        public int ExecuteCommand(string commandText)
+        internal int ExecuteCommand(string commandText)
         {
             int result;
 
@@ -51,6 +51,6 @@ namespace eShop.Service.Repository
             return result;
         }
 
-        public abstract T GetInstance(SqlDataReader reader);
+        internal abstract T GetInstance(SqlDataReader reader);
     }
 }
