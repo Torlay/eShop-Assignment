@@ -1,10 +1,16 @@
 
-/.vs
-/eShop.API/bin
-/eShop.Entities/bin
-/eShop.Service/bin
-/eShop.View/bin
-/eShop.API/obj
-/eShop.Entities/obj
-/eShop.Service/obj
-/eShop.View/obj
+.vs/
+
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.ide-shm
+*.ide-wal
+*.cache
