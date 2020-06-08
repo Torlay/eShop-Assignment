@@ -1,0 +1,10 @@
+
+.vs\*
+eShop.API\obj\Debug\*
+eShop.API\obj\Release\*
+eShop.Entities\obj\Debug\*
+eShop.Entities\obj\Release\*
+eShop.Service\obj\Debug\*
+eShop.Service\obj\Release\*
+eShop.View\obj\Debug\*
+eShop.View\obj\Release\*
