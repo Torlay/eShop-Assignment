@@ -6,18 +6,30 @@ namespace eShop.Entities
 {
     public class Item
     {
-        public int id { get; private set; }
+        public int orderId { get; private set; }
 
         public int Amount { get; private set; }
 
-        public float Price { get; private set; }
+        public decimal Price { get; private set; }
 
-        public Item(int amount, float price)
+        public Item(int orderId, int amount, decimal price)
         {
             if (amount < 1) throw new ArgumentOutOfRangeException("Amount should be at least 1.");
 
+            this.orderId = orderId;
             this.Amount = amount;
             this.Price = price;
+        }
+
+        public class Factory
+        {
+            public Item Create(int orderId, int amount, decimal price)
+            {
+                if (orderId < 1) throw new ArgumentOutOfRangeException("Id must be positive and different than 0.");
+                if (amount < 1) throw new ArgumentOutOfRangeException("Amount should be at least 1.");
+
+                return new Item(orderId, amount, price);
+            }
         }
     }
 }

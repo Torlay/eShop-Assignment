@@ -10,7 +10,9 @@ using eShop.Entities;
 
 namespace eShop.API.Controllers
 {
-    public class OrderController : ControllerBase
+    [Route("api/[controller]")]
+    [ApiController]
+    public class OrderController : Controller
     {
         private readonly ILogger<OrderController> _logger;
 
@@ -18,8 +20,12 @@ namespace eShop.API.Controllers
         {
             _logger = logger;
         }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-        [HttpGet("order/list")]
+        [HttpGet]
         public List<OrderView> ListOrderByCustomer(int customerId)
         {
             var orderService = new OrderService();
@@ -27,31 +33,12 @@ namespace eShop.API.Controllers
             return orderService.ListOrders(customerId);
         }
 
-        [HttpGet("order/find")]
-        public OrderView FindOrder(int orderId)
+        [HttpPost]
+        public bool AddOrder([FromBody] OrderView newOrder)
         {
             var orderService = new OrderService();
 
-            return orderService.FindOrder(orderId);
-        }
-
-        [HttpPost("order/add")]
-        public bool AddOrder(int customerId, string description)
-        {
-            var orderService = new OrderService();
-
-            return orderService.AddOrder(customerId, description);
-        }
-
-        [HttpPost("order/addItem")]
-        public bool AddItem (int itemId, int orderId)
-        {
-            var itemService = new ItemService();
-            var orderService = new OrderService();
-
-            Item item = itemService.GetItem(itemId);
-
-            return orderService.AddItem(item, orderId);
+            return orderService.AddOrder(newOrder);
         }
     }
 }

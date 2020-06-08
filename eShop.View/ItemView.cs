@@ -8,9 +8,9 @@ namespace eShop.View
     {
         public int Amount { get; set; }
 
-        public float Price { get; set; }
+        public decimal Price { get; set; }
 
-        public ItemView(int amount, float price)
+        public ItemView(int amount, decimal price)
         {
             this.Amount = amount;
             this.Price = price;

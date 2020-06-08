@@ -14,10 +14,18 @@ namespace eShop.View
 
         public List<ItemView> Items { get; set; }
 
-        public OrderView(string description)
+        public OrderView(int customerId, string Description, List<ItemView> Items) 
+        {
+            this.customerId = customerId;
+            this.Description = Description;
+            this.Items = Items;
+        }
+
+        public OrderView(string description, DateTime createdDate, int customerId)
         {
             this.Description = description;
-            this.CreatedDate = DateTime.Now;
+            this.CreatedDate = createdDate;
+            this.customerId = customerId;
         }
 
     }

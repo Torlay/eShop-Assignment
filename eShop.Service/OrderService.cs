@@ -3,40 +3,56 @@ using System.Collections.Generic;
 using System.Text;
 using eShop.View;
 using eShop.Entities;
+using eShop.Service.Repository;
 
 namespace eShop.Service
 {
     public class OrderService
     {
+        private OrderRepository _repo;
+
         public List<OrderView> ListOrders(int customerId)
         {
-            return new List<OrderView>()
+            _repo = new OrderRepository();
+            var orders = _repo.ListByCustomer(customerId);
+
+            List<OrderView> result = new List<OrderView>(orders.Count);
+
+            var itemServ = new ItemService();
+
+            foreach (Order o in orders)
             {
-                new OrderView("Order 1"),
-                new OrderView("Order 2")
-            };
+                var ov = new OrderView(o.Description, o.CreatedDate, customerId);
+
+                ov.Items = itemServ.GetItemsByOrder(o.id);
+
+                result.Add(ov);
+            }
+
+            return result;
         }
 
-        public bool AddOrder(int customerId, string description)
+        public bool AddOrder(OrderView newOrder)
         {
-            return true;
-        }
+            if (newOrder.customerId < 1) return false;
 
-        public bool AddItem(Item item, int orderId)
-        {
-            return true;
-        }
+            _repo = new OrderRepository();
+            var orderFactory = new Order.Factory();
+            var order = orderFactory.Create(newOrder.Description);
 
-        public OrderView FindOrder(int orderId)
-        {
-            var order = new OrderView($"Order {orderId}");
-            order.Items = new List<ItemView>()
+            int newOrderId = _repo.CreateOrder(order, newOrder.customerId);
+
+            if (newOrderId > 0)
             {
-                new ItemView(1, 10.0f),
-                new ItemView(2, 13.33f),
-            };
-
-            return order;
+                var itemFactory = new Item.Factory();
+                var itemRepo = new ItemRepository();
+                foreach(ItemView iv in newOrder.Items)
+                {
+                    var item = itemFactory.Create(newOrderId, iv.Amount, iv.Price);
+                    itemRepo.CreateItemForOrder(item);
+                }
+            }
+            return newOrderId > 0;
         }
     }
 }

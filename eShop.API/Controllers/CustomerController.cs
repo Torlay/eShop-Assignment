@@ -8,25 +8,32 @@ using eShop.View;
 using eShop.Service;
 
 namespace eShop.API.Controllers
-{   
-    public class CustomerController : ControllerBase
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CustomerController : Controller
     {
         private readonly ILogger<CustomerController> _logger;
+
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         public CustomerController(ILogger<CustomerController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet("customer/list")]
+        [HttpGet]
         public List<CustomerView> ListCustomers()
         {
             var customerService = new CustomerService();
 
             return customerService.ListCustomers();
         }
-
-        [HttpPost("customer/add")]
+        
+        [HttpPost]
         public bool AddCustomer(string name, string email)
         {
             var customerService = new CustomerService();
