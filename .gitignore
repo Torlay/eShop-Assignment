@@ -1,10 +1,18 @@
 
-.vs\*
-eShop.API\obj\Debug\*
-eShop.API\obj\Release\*
-eShop.Entities\obj\Debug\*
-eShop.Entities\obj\Release\*
-eShop.Service\obj\Debug\*
-eShop.Service\obj\Release\*
-eShop.View\obj\Debug\*
-eShop.View\obj\Release\*
+.vs
+eShop.API/bin/Debug/*
+eShop.API/bin/Release/*
+eShop.Entities/bin/Debug/*
+eShop.Entities/bin/Release/*
+eShop.Service/bin/Debug/*
+eShop.Service/bin/Release/*
+eShop.View/bin/Debug/*
+eShop.View/bin/Release/*
+eShop.API/obj/Debug/*
+eShop.API/obj/Release/*
+eShop.Entities/obj/Debug/*
+eShop.Entities/obj/Release/*
+eShop.Service/obj/Debug/*
+eShop.Service/obj/Release/*
+eShop.View/obj/Debug/*
+eShop.View/obj/Release/*
