@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj",
+      "projectUniqueName": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj",
       "projectName": "eShop.View",
-      "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj",
+      "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj",
       "packagesPath": "C:\\Users\\raphael.torlay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\obj\\",
+      "outputPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raphael.torlay\\AppData\\Roaming\\NuGet\\NuGet.Config",

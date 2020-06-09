@@ -6,3 +6,11 @@ C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Entities\obj\Debug\netcorea
 C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.AssemblyInfo.cs
 C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.dll
 C:\Users\raphael.torlay\source\repos\eShop.API\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.pdb
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\bin\Debug\netcoreapp3.1\eShop.Entities.deps.json
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\bin\Debug\netcoreapp3.1\eShop.Entities.dll
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\bin\Debug\netcoreapp3.1\eShop.Entities.pdb
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.csprojAssemblyReference.cache
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.AssemblyInfoInputs.cache
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.AssemblyInfo.cs
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.dll
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.Entities\obj\Debug\netcoreapp3.1\eShop.Entities.pdb

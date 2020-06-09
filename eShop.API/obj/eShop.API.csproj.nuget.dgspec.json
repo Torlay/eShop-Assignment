@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.API\\eShop.API.csproj": {}
+    "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.API\\eShop.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.API\\eShop.API.csproj": {
+    "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.API\\eShop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.API\\eShop.API.csproj",
+        "projectUniqueName": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.API\\eShop.API.csproj",
         "projectName": "eShop.API",
-        "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.API\\eShop.API.csproj",
+        "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.API\\eShop.API.csproj",
         "packagesPath": "C:\\Users\\raphael.torlay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.API\\obj\\",
+        "outputPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raphael.torlay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj": {
-                "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj"
+              "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Service\\eShop.Service.csproj": {
+                "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Service\\eShop.Service.csproj"
               },
-              "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj": {
-                "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj"
+              "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj": {
+                "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj": {
+    "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Entities\\eShop.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Entities\\eShop.Entities.csproj",
         "projectName": "eShop.Entities",
-        "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj",
+        "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Entities\\eShop.Entities.csproj",
         "packagesPath": "C:\\Users\\raphael.torlay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\obj\\",
+        "outputPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raphael.torlay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj": {
+    "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Service\\eShop.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj",
+        "projectUniqueName": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Service\\eShop.Service.csproj",
         "projectName": "eShop.Service",
-        "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\eShop.Service.csproj",
+        "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Service\\eShop.Service.csproj",
         "packagesPath": "C:\\Users\\raphael.torlay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Service\\obj\\",
+        "outputPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raphael.torlay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,11 +150,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj": {
-                "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.Entities\\eShop.Entities.csproj"
+              "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Entities\\eShop.Entities.csproj": {
+                "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.Entities\\eShop.Entities.csproj"
               },
-              "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj": {
-                "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj"
+              "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj": {
+                "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj"
               }
             }
           }
@@ -167,6 +167,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -186,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj": {
+    "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj",
+        "projectUniqueName": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj",
         "projectName": "eShop.View",
-        "projectPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\eShop.View.csproj",
+        "projectPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\eShop.View.csproj",
         "packagesPath": "C:\\Users\\raphael.torlay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raphael.torlay\\source\\repos\\eShop.API\\eShop.View\\obj\\",
+        "outputPath": "C:\\Users\\raphael.torlay\\Documents\\GitHub\\eShop-Assignment\\eShop.View\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raphael.torlay\\AppData\\Roaming\\NuGet\\NuGet.Config",

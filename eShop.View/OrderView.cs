@@ -14,6 +14,8 @@ namespace eShop.View
 
         public List<ItemView> Items { get; set; }
 
+        public OrderView() { }
+
         public OrderView(int customerId, string Description, List<ItemView> Items) 
         {
             this.customerId = customerId;
