@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using eShop.View;
 using eShop.Service;
-using eShop.Entities;
+using eShop.Service.Interfaces;
 
 namespace eShop.API.Controllers
 {
@@ -14,12 +14,13 @@ namespace eShop.API.Controllers
     [ApiController]
     public class OrderController : Controller
     {
-        private readonly ILogger<OrderController> _logger;
+        private IOrderService _orderService;
 
-        public OrderController(ILogger<OrderController> logger)
+        public OrderController(IOrderService orderServ)
         {
-            _logger = logger;
+            _orderService = orderServ;
         }
+
         public IActionResult Index()
         {
             return View(new OrderView());
@@ -28,17 +29,13 @@ namespace eShop.API.Controllers
         [HttpGet]
         public List<OrderView> ListOrderByCustomer(int customerId)
         {
-            var orderService = new OrderService();
-
-            return orderService.ListOrders(customerId);
+            return _orderService.ListOrders(customerId);
         }
 
         [HttpPost]
         public bool AddOrder([FromBody] OrderView newOrder)
         {
-            var orderService = new OrderService();
-
-            return orderService.AddOrder(newOrder);
+            return _orderService.AddOrder(newOrder);
         }
     }
 }

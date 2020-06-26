@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.API", "eShop.API\eShop.API.csproj", "{0AB4FD1D-E1DD-4C64-A02C-0BF1EACDA252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.API", "eShop.API\eShop.API.csproj", "{0AB4FD1D-E1DD-4C64-A02C-0BF1EACDA252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Entities", "eShop.Entities\eShop.Entities.csproj", "{3251F0C4-6AB3-41DD-80E8-30500AD34998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Entities", "eShop.Entities\eShop.Entities.csproj", "{3251F0C4-6AB3-41DD-80E8-30500AD34998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Service", "eShop.Service\eShop.Service.csproj", "{84AFDBD3-CD3D-43C6-B408-8E4B10FFB768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Service", "eShop.Service\eShop.Service.csproj", "{84AFDBD3-CD3D-43C6-B408-8E4B10FFB768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.View", "eShop.View\eShop.View.csproj", "{6E76C2C7-ACCA-4F23-A0BF-803F296E5EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.View", "eShop.View\eShop.View.csproj", "{6E76C2C7-ACCA-4F23-A0BF-803F296E5EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Test", "eShop.Test\eShop.Test.csproj", "{A58AE71F-4E37-4013-8337-CCD43EB101B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6E76C2C7-ACCA-4F23-A0BF-803F296E5EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E76C2C7-ACCA-4F23-A0BF-803F296E5EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E76C2C7-ACCA-4F23-A0BF-803F296E5EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58AE71F-4E37-4013-8337-CCD43EB101B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58AE71F-4E37-4013-8337-CCD43EB101B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58AE71F-4E37-4013-8337-CCD43EB101B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58AE71F-4E37-4013-8337-CCD43EB101B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

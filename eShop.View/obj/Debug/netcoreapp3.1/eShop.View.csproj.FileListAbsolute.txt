@@ -13,3 +13,4 @@ C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.View\obj\Debug\n
 C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.AssemblyInfo.cs
 C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.dll
 C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.pdb
+C:\Users\raphael.torlay\Documents\GitHub\eShop-Assignment\eShop.View\obj\Debug\netcoreapp3.1\eShop.View.csprojAssemblyReference.cache

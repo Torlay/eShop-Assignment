@@ -12,8 +12,9 @@ namespace eShop.Entities
 
         public decimal Price { get; private set; }
 
-        public Item(int orderId, int amount, decimal price)
+        private Item(int orderId, int amount, decimal price)
         {
+            if (orderId < 1) throw new ArgumentOutOfRangeException("Id must be positive and different than 0.");
             if (amount < 1) throw new ArgumentOutOfRangeException("Amount should be at least 1.");
 
             this.orderId = orderId;
@@ -23,11 +24,8 @@ namespace eShop.Entities
 
         public class Factory
         {
-            public Item Create(int orderId, int amount, decimal price)
+            public static Item Create(int orderId, int amount, decimal price)
             {
-                if (orderId < 1) throw new ArgumentOutOfRangeException("Id must be positive and different than 0.");
-                if (amount < 1) throw new ArgumentOutOfRangeException("Amount should be at least 1.");
-
                 return new Item(orderId, amount, price);
             }
         }

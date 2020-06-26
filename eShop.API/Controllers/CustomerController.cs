@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using eShop.View;
 using eShop.Service;
+using eShop.Service.Interfaces;
 
 namespace eShop.API.Controllers
 {
@@ -13,32 +14,28 @@ namespace eShop.API.Controllers
     [ApiController]
     public class CustomerController : Controller
     {
-        private readonly ILogger<CustomerController> _logger;
+        private ICustomerService _customerService;
 
         public IActionResult Index()
         {
             return View();
         }
 
-        public CustomerController(ILogger<CustomerController> logger)
+        public CustomerController(ICustomerService customerService)
         {
-            _logger = logger;
+            _customerService = customerService;
         }
 
         [HttpGet]
         public List<CustomerView> ListCustomers()
         {
-            var customerService = new CustomerService();
-
-            return customerService.ListCustomers();
+            return _customerService.ListCustomers();
         }
         
         [HttpPost]
         public bool AddCustomer(string name, string email)
         {
-            var customerService = new CustomerService();
-
-            return customerService.AddCustomer(name, email);
+            return _customerService.AddCustomer(name, email);
         }
     }
 }

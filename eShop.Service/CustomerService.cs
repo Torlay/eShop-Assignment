@@ -4,16 +4,21 @@ using System.Text;
 using eShop.View;
 using eShop.Entities;
 using eShop.Service.Repository;
+using eShop.Service.Interfaces;
 
 namespace eShop.Service
 {
-    public class CustomerService
+    public class CustomerService : ICustomerService
     {
-        private CustomerRepository _repo;
+        private ICustomerRepository _repo;
+
+        public CustomerService(ICustomerRepository customerRepo)
+        {
+            _repo = customerRepo;
+        }
 
         public List<CustomerView> ListCustomers()
         {
-            _repo = new CustomerRepository();
             var customers = _repo.ListAll();
             List<CustomerView> result = new List<CustomerView>(customers.Count);
 
@@ -27,10 +32,8 @@ namespace eShop.Service
 
         public bool AddCustomer(string name, string email)
         {
-            var factory = new Customer.Factory();
-            var newCustomer = factory.Create(name, email);
+            var newCustomer = Customer.Factory.Create(name, email);
 
-            _repo = new CustomerRepository();
             _repo.Insert(newCustomer);
 
             return true;

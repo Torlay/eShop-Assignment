@@ -23,7 +23,7 @@ namespace eShop.Entities
 
         public class Factory
         {
-            public Customer Create(string name, string email)
+            public static Customer Create(string name, string email)
             {
                 return new Customer(name, email);
             }

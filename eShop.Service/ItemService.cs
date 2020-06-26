@@ -4,16 +4,21 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using eShop.Service.Repository;
+using eShop.Service.Interfaces;
 
 namespace eShop.Service
 {
-    public class ItemService
+    public class ItemService : IItemService
     {
-        private ItemRepository _repo;
+        private IItemRepository _repo;
 
-        internal List<ItemView> GetItemsByOrder(int id)
+        public ItemService(IItemRepository itemRepo)
         {
-            _repo = new ItemRepository();
+            _repo = itemRepo;
+        }
+
+        public List<ItemView> GetItemsByOrder(int id)
+        {
             var items = _repo.GetItemsByOrder(id);
 
             List<ItemView> result = new List<ItemView>(items.Count);
@@ -24,6 +29,11 @@ namespace eShop.Service
             }
 
             return result;
+        }
+
+        public void AddItem(Item newItem)
+        {
+            _repo.CreateItemForOrder(newItem);
         }
     }
 }

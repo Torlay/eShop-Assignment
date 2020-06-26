@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace eShop.Service.Repository
 {
-    internal abstract class DBBase<T>
+    public abstract class DBBase<T>
     {
         private readonly string _connectionString = @"Server=localhost\SQLExpress;Database=eShopAssignment;User Id=sa;Password=Sovos2020@;";
         private SqlConnection _connection;
