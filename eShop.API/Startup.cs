@@ -11,7 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using eShop.Service;
-using eShop.API.ValueProviders;
 using eShop.Service.Repository;
 using eShop.Service.Interfaces;
 
