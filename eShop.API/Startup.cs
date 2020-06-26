@@ -41,13 +41,6 @@ namespace eShop.API
             services.AddSingleton<IItemService, ItemService>(x => itemServ);
             services.AddSingleton<IOrderService, OrderService>(x => new OrderService(orderRepo, itemServ));
 
-            services.AddRazorPages()
-                .AddMvcOptions(options =>
-                {
-                    options.ValueProviderFactories.Add(new OrderViewValueProviderFactory());
-                })
-                .AddXmlSerializerFormatters();
-
             services.AddControllers();
         }
 
